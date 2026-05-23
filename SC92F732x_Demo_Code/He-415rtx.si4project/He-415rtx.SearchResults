@@ -1,0 +1,9 @@
+---- bBtReadMacPending Matches (8 in 1 files) ----
+uart.c (user\uart) line 65 : uint8_t idata bBtReadMacPending=FALSE;
+TryParseBtReady in uart.c (user\uart) : 	if (bBtReadMacPending)
+TryParseBtReady in uart.c (user\uart) : 		bBtReadMacPending = FALSE;
+Pairing_StartSetMac in uart.c (user\uart) : 		bBtReadMacPending = TRUE;
+Pairing_StartSetMac in uart.c (user\uart) : 	bBtReadMacPending = FALSE;
+Bt_PairingTimeoutHandle in uart.c (user\uart) : 		bBtReadMacPending = FALSE;
+Pairing_StartReadMac in uart.c (user\uart) : 		bBtReadMacPending = TRUE;
+Pairing_StartReadMac in uart.c (user\uart) : 	bBtReadMacPending = FALSE;
